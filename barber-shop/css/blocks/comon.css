@@ -1,0 +1,28 @@
+.common{
+    display: flex;
+    justify-content: center;
+}
+
+.common-container{
+    /*display: flex;*/
+    width: 960px;
+    background-color: #f5f2ef;
+}
+
+.common-header{
+    font-size: 30px;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: black;
+}
+
+.common-text{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.common-text_small{
+    font-size: 10px;
+}
