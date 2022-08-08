@@ -1,0 +1,25 @@
+.barber-shop-table,
+table,
+tr,
+td{
+    border: black solid 2px;
+}
+
+.barber-shop-table{
+    width: 100%;
+}
+
+td{
+    line-height: 42px;
+    width: 50%;
+}
+
+.table_padding{
+    padding-left: 20px;
+}
+
+.table_center{
+    text-align: center;
+}
+
+

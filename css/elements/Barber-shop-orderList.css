@@ -1,0 +1,37 @@
+.Order-list-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Order-list-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.Order-list-box:hover,
+.Order-list-box:focus{
+    cursor:pointer;
+    color: white;
+    background-color: #673d15;
+    transition: 0.3s;
+}
+
+.Order-list-box-current{
+    background-color: white;
+    color: black;
+}
+
+.Order-list-box-current:hover,
+.Order-list-box-current:focus{
+    cursor: auto;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,53 @@
+.footer{
+    background-color: #252525;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-container{
+    width: 960px;
+}
+
+.footer-text_underline{
+    text-decoration: underline;
+}
+
+.footer-text_center{
+    text-align: center;
+}
+
+.icon-squire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    width: 42px;
+    height: 42px;
+    fill: white;
+}
+
+.icon-squire:hover,
+.icon-squire:focus{
+    transition: 0.3s;
+    background-color: white;
+    fill: black;
+}
+
+/* .svg:hover{
+    fill: black;
+} */
+
+.footer-icon-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer-button-gap{
+    margin-top: 20px;
+}

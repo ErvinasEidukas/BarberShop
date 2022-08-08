@@ -1,0 +1,21 @@
+.barber-shop-form{
+    box-sizing: border-box;
+    border: black solid 2px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    line-height: 40px;
+    width: 100%;
+}
+
+.barber-shop-labal{
+    box-sizing: border-box;
+    border: none;
+    background-color: none;
+    color: black;
+    font-size: 14px;
+    line-height: 40px;
+    width: 100%;
+    text-transform: uppercase;
+    margin: 15px;
+}

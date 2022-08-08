@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'barber-shop-font';
+    src: url('../../fonts/ptsansnarrow.woff2') format('woff2'),
+        url('../../fonts/ptsansnarrow.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'barber-shop-font-bold';
+    src: url('../../fonts/ptsansnarrowbold.woff2') format('woff2'),
+        url('../../fonts/ptsansnarrowbold.woff') format('woff');
+}
+
+body {
+    font-family: 'barber-shop-font-bold';
+}
+
+/* Landing page spasing*/
+.landing-page{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.landing-page-header_gap{
+    margin-bottom: 40px;
+}
+
+.landing-page-header_big-gap{
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
