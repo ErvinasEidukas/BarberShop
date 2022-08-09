@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'barber-shop-font';
+    src: url('../../fonts/ptsansnarrow.woff2') format('woff2'),
+        url('../../fonts/ptsansnarrow.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'barber-shop-font-bold';
+    src: url('../../fonts/ptsansnarrowbold.woff2') format('woff2'),
+        url('../../fonts/ptsansnarrowbold.woff') format('woff');
+}
+
+body {
+    margin-top: 10px;
+    font-family: 'barber-shop-font-bold';
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    width: 1200px;
+    height: 600px;
+    background-color: blue;
+}
+
+.link_image {
+    width: 50%;
+    height: 100%;
+    outline: solid gray 10px;
+    background-color: black;
+}
+
+.link_image_img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

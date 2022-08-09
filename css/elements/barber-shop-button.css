@@ -1,0 +1,28 @@
+.button{
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus{
+    cursor:pointer;
+    color: white;
+    background-color: #673d15;
+    transition: 0.3s;
+}
+
+.button_invert:hover,
+.button_invert:focus{
+    color: black;
+    background-color: white;
+}

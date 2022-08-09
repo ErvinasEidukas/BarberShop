@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'barber-shop-font';
+    src: url('../../fonts/ptsansnarrow.woff2') format('woff2'),
+        url('../../fonts/ptsansnarrow.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'barber-shop-font-bold';
+    src: url('../../fonts/ptsansnarrowbold.woff2') format('woff2'),
+        url('../../fonts/ptsansnarrowbold.woff') format('woff');
+}
+
+body {
+    background-image: url(../../img/png/background.png);
+    font-family: 'barber-shop-font-bold';
+}
+
+/*hero*/
+.hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-img {
+    margin-bottom: 75px;
+}
+
+.hero-block__text {
+    font-family: 'barber-shop-font';
+}
+
+/*common*/
+.common-header{
+    margin-bottom: 36px;
+}
+
+.common-container{
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+/*news*/
+.news{
+    margin-bottom: 35px;
+}
+
+.news-text-gap{
+    margin-bottom: 15px;
+}
+
+.news-button-gap{
+    margin-top: 40px;
+}
+
+/* contact us */
+.contact-us{
+    margin-bottom: 65px;
+}
+
+/*button*/
+
+/* Form */
+.form-text-gep{
+    margin-bottom: 30px;
+}
+
+.form-text-gep_small{
+    margin-bottom: 10px;
+}
+
+.form-button-gap{
+    margin-top: 20px;
+}
+
